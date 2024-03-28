@@ -27,66 +27,66 @@ Response:
 Status: 200 OK  
 Body: Array of mentee objects  
 
-Get Mentor and Student Statistics
-URL: https://mentorstudentapi-its5.onrender.com/mentor/getstats
-Method: GET
-Description: Retrieve statistics about mentors and students, including mentors' names and students with no assigned mentor.
-Response:
-Status: 200 OK
-Body: Object containing arrays of mentors and students
+Get Mentor and Student Statistics  
+URL: https://mentorstudentapi-its5.onrender.com/mentor/getstats  
+Method: GET  
+Description: Retrieve statistics about mentors and students, including mentors' names and students with no assigned mentor.  
+Response:  
+Status: 200 OK  
+Body: Object containing arrays of mentors and students  
 
-Create Mentor
-URL: https://mentorstudentapi-its5.onrender.com/mentor/createMentor
-Method: POST
-Description: Create a new mentor.
-Request Body: Mentor object
-Response:
-Status: 200 OK
-Body: Success message
+Create Mentor  
+URL: https://mentorstudentapi-its5.onrender.com/mentor/createMentor  
+Method: POST  
+Description: Create a new mentor.  
+Request Body: Mentor object  
+Response:  
+Status: 200 OK  
+Body: Success message  
 
-Assign Students to Mentor
-URL: https://mentorstudentapi-its5.onrender.com/mentor/:mentor/assign
-Method: POST
-Description: Assign students to a mentor.
-Parameters:
-mentor: The name of the mentor to assign students to.
-Request Body: Array of student objects
-Response:
-Status: 200 OK
-Body: Success message
+Assign Students to Mentor  
+URL: https://mentorstudentapi-its5.onrender.com/mentor/:mentor/assign  
+Method: POST  
+Description: Assign students to a mentor.  
+Parameters:  
+mentor: The name of the mentor to assign students to.   
+Request Body: Array of student objects  
+Response:    
+Status: 200 OK  
+Body: Success message  
 
-Student Routes
+Student Routes  
 
-Get Previous Mentor of a Student
-URL: https://mentorstudentapi-its5.onrender.com/student/previous/:student
-Method: GET
-Description: Retrieve the previous mentor of a specific student.
-Parameters:
-student: The name of the student to retrieve the previous mentor for.
-Response:
-Status: 200 OK
-Body: Name of the previous mentor
+Get Previous Mentor of a Student  
+URL: https://mentorstudentapi-its5.onrender.com/student/previous/:student  
+Method: GET  
+Description: Retrieve the previous mentor of a specific student.  
+Parameters:  
+student: The name of the student to retrieve the previous mentor for.  
+Response:    
+Status: 200 OK  
+Body: Name of the previous mentor  
 
-Create Student
-URL: https://mentorstudentapi-its5.onrender.com/student/createStudent
-Method: POST
-Description: Create a new student.
-Request Body: Student object
-Response:
-Status: 200 OK
-Body: Success message
+Create Student  
+URL: https://mentorstudentapi-its5.onrender.com/student/createStudent  
+Method: POST  
+Description: Create a new student.    
+Request Body: Student object  
+Response:  
+Status: 200 OK  
+Body: Success message  
 
-Assign Mentor to Student
-URL: https://mentorstudentapi-its5.onrender.com/student/assignmentor
-Method: PUT
-Description: Assign a mentor to a student.
-Request Body: Object containing student and mentor names
-Response:
-Status: 200 OK
-Body: Success message
+Assign Mentor to Student  
+URL: https://mentorstudentapi-its5.onrender.com/student/assignmentor  
+Method: PUT   
+Description: Assign a mentor to a student.  
+Request Body: Object containing student and mentor names  
+Response:  
+Status: 200 OK   
+Body: Success message   
 
 
-Getting Started:
-To begin using the Mentor-Student API, explore the available endpoints listed above. Each endpoint is accompanied by its URL, supported HTTP methods, descriptions, and examples of request and response formats.
+Getting Started:  
+To begin using the Mentor-Student API, explore the available endpoints listed above. Each endpoint is accompanied by its URL, supported HTTP methods, descriptions, and examples of request and response formats.  
 
-Note: Replace placeholders such as :mentor and :student with actual names when making requests.
+Note: Replace placeholders such as :mentor and :student with actual names when making requests.  
