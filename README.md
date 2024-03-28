@@ -11,9 +11,6 @@ Mentor Management: Create new mentors, assign mentees (students) to mentors, and
 Student Management: Create new students, assign mentors to students, and retrieve information about students' previous mentors.
 Data Integrity: Ensure data consistency and integrity by enforcing relationships between mentors and students.
 Scalability: Easily scale mentorship programs by adding new mentors and students as needed.
-Analytics: Obtain insights into mentorship program performance and student engagement through statistical data.
-Authentication:
-Authentication is not required for accessing the API endpoints. However, certain operations may require administrative privileges or specific user roles, which should be enforced at the application level.
 
 Error Handling:
 The API follows standard HTTP status codes to indicate the success or failure of requests. Additionally, detailed error messages are provided in the response body to assist developers in troubleshooting issues.
