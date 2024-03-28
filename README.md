@@ -18,12 +18,18 @@ The API follows standard HTTP status codes to indicate the success or failure of
 Mentor Routes
 
 Get Mentees of a Mentor
-URL: https://mentorstudentapi-its5.onrender.com/mentor/getmentor/:mentor
+URL: https://mentorstudentapi-its5.onrender.com/mentor/getmentor/:mentor 
+
 Method: GET
+
 Description: Retrieve the mentees assigned to a specific mentor.
+
 Parameters:
+
 mentor: The name of the mentor to retrieve mentees for.
+
 Response:
+
 Status: 200 OK
 Body: Array of mentee objects
 
